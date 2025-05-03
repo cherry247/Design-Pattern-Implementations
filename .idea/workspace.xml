@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerPattern/CurrentConditionDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerPattern/DisplayElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerPattern/Observers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerPattern/StatisticsDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerPattern/Subject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/observerPattern/WeatherDataObject.java" afterDir="false" />
+    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="observer pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/AcComponent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/ModelA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/OptionalEquipments.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +54,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.decoratorPattern.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observerPattern.Main" />
       <module name="designpatterns" />
@@ -83,6 +75,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="decoratorPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decoratorPattern.Main" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="decoratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Design Patterns" />
       <method v="2">
@@ -98,6 +103,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.decoratorPattern.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ObserverPattern" />
       </list>
@@ -112,7 +118,19 @@
       <option name="presentableId" value="Default" />
       <updated>1746106660055</updated>
     </task>
+    <task id="LOCAL-00001" summary="observer pattern">
+      <created>1746112657841</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1746112657841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="observer pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="observer pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -133,19 +151,19 @@
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/observerPattern/StatisticsDisplay.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="5" />
+          <url>file://$PROJECT_DIR$/src/main/java/decoratorPattern/Main.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/observerPattern/StatisticsDisplay.java</url>
-          <line>29</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/decoratorPattern/Main.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/observerPattern/StatisticsDisplay.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/main/java/decoratorPattern/ModelA.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
