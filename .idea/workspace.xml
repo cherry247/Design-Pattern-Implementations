@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="observer pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/AcComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/ModelA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decoratorPattern/OptionalEquipments.java" afterDir="false" />
+    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="decorator pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryPattern/Notification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryPattern/NotificationFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/factoryPattern/NotificationType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -54,7 +55,12 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.decoratorPattern.Main">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="decoratorPattern" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.factoryPattern.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="observerPattern.Main" />
       <module name="designpatterns" />
@@ -88,6 +94,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="factoryPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="factoryPattern.Main" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="factoryPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mongo.main" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mongo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="Design Patterns" />
       <method v="2">
@@ -103,6 +135,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.factoryPattern.Main" />
+        <item itemvalue="Application.main" />
         <item itemvalue="Application.decoratorPattern.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ObserverPattern" />
@@ -125,12 +159,31 @@
       <option name="project" value="LOCAL" />
       <updated>1746112657841</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="decorator pattern">
+      <created>1746256589723</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1746256589723</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="observer pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="observer pattern" />
+    <MESSAGE value="decorator pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="decorator pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
