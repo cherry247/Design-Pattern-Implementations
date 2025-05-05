@@ -8,4 +8,6 @@
 
 <img src = "https://github.com/user-attachments/assets/8870421c-491a-4c85-9b9d-5e117919f24f" width="400"/>
 
+### Factory Pattern
 
+<img src = "https://github.com/user-attachments/assets/6f29ac24-d37f-41f9-bdc6-adf5e0a94f25" width="400"/>
