@@ -11,3 +11,7 @@
 ### Factory Pattern
 
 <img src = "https://github.com/user-attachments/assets/6f29ac24-d37f-41f9-bdc6-adf5e0a94f25" width="400"/>
+
+### Singleton Pattern
+
+<img src = "https://github.com/user-attachments/assets/12a4dcb4-128b-4093-8e82-8299d16d8ba6" width="400"/>
