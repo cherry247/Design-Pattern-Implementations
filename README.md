@@ -15,3 +15,7 @@
 ### Singleton Pattern
 
 <img src = "https://github.com/user-attachments/assets/12a4dcb4-128b-4093-8e82-8299d16d8ba6" width="400"/>
+
+### Command Pattern
+
+<img src = "https://github.com/user-attachments/assets/31f993e6-89bf-45a4-b1a1-ecf680323469" width = "400"/>
