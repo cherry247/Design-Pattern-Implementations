@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="factory pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/singletonPattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/singletonPattern/Singleton.java" afterDir="false" />
+    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="singleton pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandPattern/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandPattern/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandPattern/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandPattern/LightOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandPattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/commandPattern/RemoteControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,13 +62,13 @@
       <recent name="decoratorPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.singletonPattern.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="observerPattern.Main" />
+  <component name="RunManager" selected="Application.commandPattern.Main">
+    <configuration name="commandPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="commandPattern.Main" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observerPattern.*" />
+          <option name="PATTERN" value="commandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.commandPattern.Main" />
         <item itemvalue="Application.singletonPattern.Main" />
         <item itemvalue="Application.factoryPattern.Main" />
         <item itemvalue="Application.main" />
         <item itemvalue="Application.decoratorPattern.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1746458449272</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="singleton pattern">
+      <created>1746632270011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746632270011</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,7 +206,8 @@
     <MESSAGE value="observer pattern" />
     <MESSAGE value="decorator pattern" />
     <MESSAGE value="factory pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="factory pattern" />
+    <MESSAGE value="singleton pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
