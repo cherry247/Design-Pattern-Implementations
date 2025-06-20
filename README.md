@@ -19,3 +19,8 @@
 ### Command Pattern
 
 <img src = "https://github.com/user-attachments/assets/31f993e6-89bf-45a4-b1a1-ecf680323469" width = "400"/>
+
+### Template Pattern
+
+<img src = "https://github.com/user-attachments/assets/7a13c838-939b-4a7a-b828-57841b1cc8c9" width = "400"/>
+
