@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="command pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapterPattern/Main.java" afterDir="false" />
+    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="adapter pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/templatePattern/Input.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templatePattern/LowerCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templatePattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/templatePattern/UpperCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,7 @@
       <recent name="decoratorPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.templatePattern.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapterPattern.Main" />
       <module name="designpatterns" />
@@ -97,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mongo.main" />
+    <configuration name="singletonPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singletonPattern.Main" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mongo.*" />
+          <option name="PATTERN" value="singletonPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="singletonPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singletonPattern.Main" />
+    <configuration name="templatePattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="templatePattern.Main" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singletonPattern.*" />
+          <option name="PATTERN" value="templatePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.templatePattern.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.commandPattern.Main" />
         <item itemvalue="Application.singletonPattern.Main" />
         <item itemvalue="Application.factoryPattern.Main" />
-        <item itemvalue="Application.main" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1746947288937</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="adapter pattern">
+      <created>1750297660513</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1750297660513</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +220,8 @@
     <MESSAGE value="factory pattern" />
     <MESSAGE value="singleton pattern" />
     <MESSAGE value="command pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="command pattern" />
+    <MESSAGE value="adapter pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="adapter pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
