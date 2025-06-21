@@ -24,3 +24,8 @@
 
 <img src = "https://github.com/user-attachments/assets/7a13c838-939b-4a7a-b828-57841b1cc8c9" width = "400"/>
 
+### Iterator Pattern
+
+<img src = "https://github.com/user-attachments/assets/1fb5e4b9-9fca-47e1-b430-937ced363416" width = "400"/>
+
+
