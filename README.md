@@ -32,5 +32,10 @@
 
 <img src = "https://github.com/user-attachments/assets/f3940da8-6ad6-4248-9c99-c12616f230b2" width = "400"/>
 
+### State Pattern
+
+<img src = "https://github.com/user-attachments/assets/b27db64c-271d-44e3-af0f-d037c967fac2" width = "400"/>
+
+
 
 
