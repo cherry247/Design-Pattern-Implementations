@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="iterator pattern">
-      <change afterPath="$PROJECT_DIR$/src/main/java/compositePattern/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/compositePattern/FileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/compositePattern/Folder.java" afterDir="false" />
+    <list default="true" id="5d3b4f9e-39e3-43db-bdbf-f2942834d065" name="Changes" comment="composite pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/statePattern/Document.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/statePattern/Draft.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/statePattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/statePattern/Moderation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/statePattern/Published.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/statePattern/State.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,26 +61,13 @@
       <recent name="decoratorPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.compositePattern.Main">
+  <component name="RunManager" selected="Application.statePattern.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="adapterPattern.Main" />
       <module name="designpatterns" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="adapterPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="commandPattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="commandPattern.Main" />
-      <module name="designpatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="commandPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,6 +94,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="iteratorPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="statePattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="statePattern.Main" />
+      <module name="designpatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="statePattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.statePattern.Main" />
         <item itemvalue="Application.compositePattern.Main" />
         <item itemvalue="Application.iteratorPattern.Main" />
         <item itemvalue="Application.templatePattern.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.commandPattern.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1750493741993</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="composite pattern">
+      <created>1750495231794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1750495231794</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -235,7 +245,8 @@
     <MESSAGE value="adapter pattern" />
     <MESSAGE value="template pattern" />
     <MESSAGE value="iterator pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterator pattern" />
+    <MESSAGE value="composite pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="composite pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
