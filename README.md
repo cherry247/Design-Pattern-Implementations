@@ -28,4 +28,9 @@
 
 <img src = "https://github.com/user-attachments/assets/1fb5e4b9-9fca-47e1-b430-937ced363416" width = "400"/>
 
+### Composite Pattern
+
+<img src = "https://github.com/user-attachments/assets/f3940da8-6ad6-4248-9c99-c12616f230b2" width = "400"/>
+
+
 
